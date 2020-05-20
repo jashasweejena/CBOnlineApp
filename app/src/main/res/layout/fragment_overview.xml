@@ -197,12 +197,15 @@
             android:layout_marginTop="@dimen/margin_large"
             android:layout_marginEnd="@dimen/margin_large" />
 
+        <include layout="@layout/item_rating"/>
+
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_medium"
             android:layout_marginBottom="@dimen/margin_large"
             android:scrollbars="none">
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -319,6 +322,7 @@
                         android:textSize="14sp" />
 
                 </LinearLayout>
+
 
 
             </LinearLayout>
